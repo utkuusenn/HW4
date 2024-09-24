@@ -61,6 +61,6 @@ section {
     box-shadow: 226px 0 black;
 }
 
-.torun-1 {
+.torunlar:nth-child(1) {
     top: 75px;
 }
