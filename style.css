@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: blue;
+    padding: 16px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    color: hotpink;
+}
+
+.ortala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.yüz {
+    width: 200px;
+    height: 250px;
+    background-color: #c98c4f;
+    border-radius: 100px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sac {
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    border-top: 15px solid black;
+    border-radius: 100px 100px 0 0;
+    position: absolute;
+}
+
+.gözler {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.göz {
+    width: 30px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid #000;
+}
+
+.göz-bebegi {
+    width: 10px;
+    height: 10px;
+    background-color: #40a23d;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.kaslar {
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    width: 170px;
+    height: 30px;
+}
+
+.kas {
+    width: 70px;
+    height: 10px;
+    background-color: #3a260e;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.kas:nth-child(1) {
+    top: 5px;
+}
+
+.kas:nth-child(2) {
+    left: 100px;
+    top: 5px;
+}
+
+.kulak-sol {
+    width: 20px;
+    height: 50px;
+    background-color: #ffcc99;
+    border-radius: 40px;
+    position: absolute;
+    left: -15px;
+    top: 80px;
+}
+
+.kulak-sol::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 40px;
+    background-color: #ffe0b2;
+    border-radius: 30px;
+}
+
+.kulak-sag {
+    width: 20px;
+    height: 50px;
+    background-color: #ffcc99;
+    border-radius: 40px;
+    position: absolute;
+    left: 190px;
+    top: 80px;
+}
+
+.kulak-sag::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 40px;
+    background-color: #ffe0b2;
+    border-radius: 30px;
+}
+
+.agız {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-bottom: 35px solid rgb(89, 43, 43);
+    border-radius: 0 0 100px 100px;
+    position: absolute;
+    left: 50px;
+    top: 135px;
+    
+}
+
+.dil {
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border-bottom: 30px solid rgb(206, 117, 117);
+    border-radius: 0 0 100px 100px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    overflow: hidden;
+}
